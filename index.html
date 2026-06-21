@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fady Bakhos — Fitness-Focused Web Developer</title>
+  <meta name="description" content="Portfolio of Fady Bakhos, an aspiring web developer building practical fitness and productivity tools." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav" id="top">
+    <div class="nav-inner">
+      <span class="nav-mark">FK</span>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-grid"></div>
+    <div class="hero-content">
+      <div class="hero-photo">
+        <img src="assets/profile.jpg" alt="Portrait of Fady Bakhos" />
+      </div>
+      <p class="eyebrow">Fitness-Focused Web Developer</p>
+      <h1>Fady Bakhos</h1>
+      <p class="hero-line">I build practical web applications focused on fitness and productivity.</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="section-inner">
+      <p class="section-label">01 — About</p>
+      <div class="about-grid">
+        <h2>Coaching people in the gym taught me how to break hard problems into small, repeatable sets. Code works the same way.</h2>
+        <div class="about-body">
+          <p>I'm Fady — a gym coach by trade, and a web developer in progress. I spend my days helping people track progress and hit targets, and I'm now applying that same mindset to building software.</p>
+          <p>I'm learning HTML, CSS, and JavaScript with a focus on real, usable tools rather than tutorials I'll never touch again. Everything I build starts from a problem I actually see on the gym floor — progress tracking, goal logging, simple dashboards — and grows from there.</p>
+          <p>Next up: getting comfortable with React and basic backend work so I can take these projects from static pages to full applications.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section section-alt" id="skills">
+    <div class="section-inner">
+      <p class="section-label">02 — Skills</p>
+      <h2 class="section-heading">Current stack</h2>
+
+      <div class="skills-grid">
+        <div class="skill-card skill-active">
+          <span class="skill-name">HTML</span>
+          <span class="skill-status">in use</span>
+        </div>
+        <div class="skill-card skill-active">
+          <span class="skill-name">CSS</span>
+          <span class="skill-status">in use</span>
+        </div>
+        <div class="skill-card skill-active">
+          <span class="skill-name">JavaScript</span>
+          <span class="skill-status">in use</span>
+        </div>
+        <div class="skill-card skill-active">
+          <span class="skill-name">Git</span>
+          <span class="skill-status">in use</span>
+        </div>
+        <div class="skill-card skill-active">
+          <span class="skill-name">GitHub</span>
+          <span class="skill-status">in use</span>
+        </div>
+      </div>
+
+      <p class="skills-next-label">Up next</p>
+      <div class="skills-grid skills-grid-next">
+        <div class="skill-card skill-pending">
+          <span class="skill-name">React</span>
+          <span class="skill-status">learning</span>
+        </div>
+        <div class="skill-card skill-pending">
+          <span class="skill-name">Node.js</span>
+          <span class="skill-status">learning</span>
+        </div>
+        <div class="skill-card skill-pending">
+          <span class="skill-name">SQL</span>
+          <span class="skill-status">learning</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="section-inner">
+      <p class="section-label">03 — Projects</p>
+      <h2 class="section-heading">What I've built</h2>
+
+      <div class="projects-list">
+        <article class="project-card">
+          <div class="project-info">
+            <h3>Fitness Progress Dashboard</h3>
+            <p>Tracks weight progress and goal completion over time, with a simple log-and-review flow built for daily use.</p>
+            <ul class="project-tech">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+          </div>
+          <div class="project-links">
+            <span class="btn btn-small btn-outline" style="opacity:0.6;cursor:default;">Live Demo — Coming Soon</span>
+            <span class="btn btn-small btn-outline" style="opacity:0.6;cursor:default;">Repo — Coming Soon</span>
+          </div>
+        </article>
+
+        <article class="project-card project-card-placeholder">
+          <div class="project-info">
+            <h3>Next project — in progress</h3>
+            <p>Reserved for the next build. Check back soon.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section-alt" id="contact">
+    <div class="section-inner contact-inner">
+      <p class="section-label">04 — Contact</p>
+      <h2 class="section-heading">Let's connect</h2>
+      <p class="contact-line">Open to entry-level opportunities, collaborations, and feedback on what I'm building.</p>
+      <div class="contact-links">
+        <a href="https://github.com/FadyBakhos-dev" target="_blank" rel="noopener" class="contact-link">
+          <span class="contact-label">GitHub</span>
+          <span class="contact-value">github.com/FadyBakhos-dev</span>
+        </a>
+        <a href="mailto:fadybakhos12345@gmail.com" class="contact-link">
+          <span class="contact-label">Email</span>
+          <span class="contact-value">fadybakhos12345@gmail.com</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>Fady Bakhos — Built with HTML, CSS &amp; JavaScript.</p>
+    <a href="#top" class="footer-top">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
